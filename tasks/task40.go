@@ -27,6 +27,16 @@ import (
 	"fmt"
 )
 
+func work(num int) int {
+	if num < 3 {
+		num--
+		return num
+	} else {
+		num++
+		return num
+	}
+}
+
 func main() {
 	newMap := make(map[int]int)
 	number := 0
